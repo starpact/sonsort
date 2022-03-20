@@ -84,7 +84,7 @@ def merge_sort(arr):
 
 
 def test_sort(sort):
-    ARRAY_LEN = 10
+    ARRAY_LEN = 1000
     arr = [randint(0, 10000) for _ in range(ARRAY_LEN)]
     arr_correct = arr.copy()
     arr_correct.sort()

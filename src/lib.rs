@@ -159,6 +159,7 @@ mod tests {
         do_sort(quick_sort1);
     }
 
+    #[test]
     fn test_merge_sort() {
         do_sort(merge_sort);
     }
